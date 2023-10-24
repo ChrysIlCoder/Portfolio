@@ -3,6 +3,7 @@ import { SIZES, COLORS } from '../../constants/styles'
 import reactLogo from '../../assets/logos/react.svg'
 import htmlLogo from '../../assets/logos/html.svg'
 import csslogo from '../../assets/logos/css.svg'
+import scssLogo from '../../assets/logos/scss.svg'
 import javascriptLogo from '../../assets/logos/javascript.svg'
 import illustratorLogo from '../../assets/logos/illustrator.svg'
 import photoshopLogo from '../../assets/logos/photoshop.svg'
@@ -27,6 +28,7 @@ export default function AboutMe(){
                     <div className='aboutme-skills'>
                         <img src={htmlLogo} alt="Logo" />
                         <img src={csslogo} alt="Logo" />
+                        <img src={scssLogo} alt='Logo' />
                         <img src={javascriptLogo} alt="Logo" />
                         <img src={reactLogo} alt="Logo" />
                         <img src={illustratorLogo} alt="Logo" />
