@@ -9,7 +9,7 @@ export default function Navbar(){
 
     return (
         <header>
-            <nav className='navbar'>
+            <nav className='navbar' id="home">
                 <h1 className='nav-logo'>Chrys.</h1>
                 <ul className={`nav-menu ${active ? 'nav-active' : ''}`}>
                     <li><Link onClick={handleBurgerClick} to="chisono" smooth={true} duration={scrollTime} className='nav-link'>Chi Sono</Link></li>

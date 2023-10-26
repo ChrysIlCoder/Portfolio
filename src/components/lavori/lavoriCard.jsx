@@ -3,7 +3,7 @@ import '../../App.css'
 export default function LavoriCard({ portrait, name, desc, link, prog, right, download }){
     return (
         <div className='jobcard' style={{ flexDirection: `${right ? 'row-reverse' : 'row'}`}}>
-            <img src={portrait} alt='Immagine Lavoro' className='job-image'/>
+            <a href={link} target='_blank'><img src={portrait} alt='Immagine Lavoro' className='job-image'/></a>
             <hr className='job-hr'/>
             <div className='job-info' style={{ textAlign: `${right ? 'right' : 'left'}`, alignItems: `${right ? 'end' : 'start'}`}}>
                 <h1 className='job-title'>{name}</h1>

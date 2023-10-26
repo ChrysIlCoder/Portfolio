@@ -4,7 +4,7 @@ import { SIZES } from '../../constants/styles'
 export default function Presentation(){
     return (
         <section>
-            <div className='grid-lined-background presentation-container' id='home'>
+            <div className='grid-lined-background presentation-container'>
                 <div className='presentation-pic'></div>
                 <h1 className='presentation-name'>Christian Boffa</h1>
                 <p className='presentation-desc'>
