@@ -28,15 +28,6 @@ export default function Lavori(){
                         prog={["React Native", "Javascript", "Vanilla CSS", "Rapid API", "Illustrator"]}
                         right={true}
                     />
-                    <LavoriCard
-                        portrait={eWaysImg}
-                        name={"Logo E-Ways"}
-                        desc={"Eletric Motorways è una azienda che fornisce monopattini elettrici e accessori per la personalizzazione"}
-                        link={eWaysFile}
-                        prog={["Illustrator", "InDesign"]}
-                        download={true}
-                        right={false}
-                    />
                 </div>
             </div>
         </section>

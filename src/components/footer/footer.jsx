@@ -8,7 +8,7 @@ export default function Footer(){
             <h3 className='footer-copyright'>Copyright © 2023. Tutti i diritti riservati</h3>
             <ul className='footer-menu'>
                 <li><a href="https://github.com/ChrysIlCoder" target='_blank' className='nav-link'>Il Mio Github</a></li>
-                <li><Link style={COLORS.secondaryColor} to="home" smooth={true} duration={500} className='nav-link'>Torna all'inizio ↺</Link></li>
+                <li><Link style={COLORS.secondaryColor} to='me' smooth={true} duration={500} className='nav-link'>Torna all'inizio ↺</Link></li>
             </ul>
         </footer>
     )
