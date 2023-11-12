@@ -2,8 +2,7 @@ import '../../App.css'
 import LavoriCard from './lavoriCard'
 import barJuiceImg from '../../assets/imgs/BarJuice.jpg'
 import trovaLavoroImg from '../../assets/imgs/TrovaLavoro.jpeg'
-import eWaysImg from '../../assets/imgs/E-Ways.jpg'
-import eWaysFile from '../../../public/files/E-Ways.ai'
+import omegaTerminal from '../../assets/imgs/OmegaTerminal.jpeg'
 import { COLORS } from '../../constants/styles'
 
 export default function Lavori(){
@@ -27,6 +26,14 @@ export default function Lavori(){
                         link={"https://github.com/ChrysIlCoder/JFinder"}
                         prog={["React Native", "Javascript", "Vanilla CSS", "Rapid API", "Illustrator"]}
                         right={true}
+                    />
+                    <LavoriCard
+                        portrait={omegaTerminal}
+                        name={"Omega Terminal"}
+                        desc={`Un finto terminale per la <a href="http://fondazionescp.wikidot.com/">Fondazione SCP</a>. Creato per un contest di un server di un videogioco, il terminale si basa su una finta "fondazione" che ricontiene anomalie, questo terminal è una piccola demo dove parlo di me e uso delle FETCH API`}
+                        link={"https://omega-terminal.netlify.app"}
+                        prog={["React", "Vanilla CSS"]}
+                        right={false}
                     />
                 </div>
             </div>
