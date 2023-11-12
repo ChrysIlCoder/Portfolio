@@ -2,7 +2,7 @@ import '../../App.css'
 import LavoriCard from './lavoriCard'
 import barJuiceImg from '../../assets/imgs/BarJuice.jpg'
 import trovaLavoroImg from '../../assets/imgs/TrovaLavoro.jpeg'
-import omegaTerminal from '../../assets/imgs/OmegaTerminal.jpeg'
+import omegaTerminal from '../../assets/imgs/OmegaTerminal.jpg'
 import { COLORS } from '../../constants/styles'
 
 export default function Lavori(){
