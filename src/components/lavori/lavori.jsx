@@ -3,6 +3,7 @@ import LavoriCard from './lavoriCard'
 import barJuiceImg from '../../assets/imgs/BarJuice.jpg'
 import trovaLavoroImg from '../../assets/imgs/TrovaLavoro.jpeg'
 import omegaTerminal from '../../assets/imgs/OmegaTerminal.jpg'
+import recipeFinder from '../../assets/imgs/RecipeFinder.jpg'
 import { COLORS } from '../../constants/styles'
 
 export default function Lavori(){
@@ -34,6 +35,14 @@ export default function Lavori(){
                         link={"https://omega-terminal.netlify.app"}
                         prog={["React", "Vanilla CSS"]}
                         right={false}
+                    />
+                    <LavoriCard
+                        portrait={recipeFinder}
+                        name={"Random Recipe Finder"}
+                        desc={`Random Recipe Finder è un applicazione che utilizza la <a href="https://spoonacular.com/food-api">Spooncular API</a> per trovare ricette randomicamente, se hai fame e non sai cosa cucinare, allora questo è il tuo compagno perfetto`}
+                        link={"https://random-recipe-finder.netlify.app"}
+                        prog={["React", "SCSS"]}
+                        right={true}
                     />
                 </div>
             </div>
